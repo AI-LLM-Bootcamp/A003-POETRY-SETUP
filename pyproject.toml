@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "a003-poetry-setup"
+version = "0.1.0"
+description = ""
+authors = ["julio4ai <juliocolomer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+jupyterlab = "^4.2.4"
+langchain = "^0.2.10"
+langchain-openai = "^0.1.17"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
